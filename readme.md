@@ -10,13 +10,6 @@
 * [Developmental Deployment](https://ak-flask-prod.herokuapp.com/)
 
 ## Setting up CI/CD
-### Instructions
-
-1. Clone this repo to your local (DO NOT FORK THIS REPO, IF YOU DO YOU HAVE TO ENABLE ACTIONS BEFORE ANYTHING RUNS)
-2. Create a new repo on your own Github account
-3. Change the origin by replacing it with your own new repo.  (Do not add a readme or any other file while creating the repository)
-4. Create an account with Heroku, create an app for production and an app for development
-5. Create a new repo in Docker hub
 
 #### Setup Docker and Heroku Credentials In the Repository Settings under Action -> Secret
 
