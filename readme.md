@@ -10,6 +10,16 @@
 * [Developmental Deployment](https://ak-flask-prod.herokuapp.com/)
 
 ## Setting up CI/CD
+Setting up CI/CD
+The result of this will be that when you create a pull request to merge a branch to master, it will deploy to your heroku development app/dyno and when you merge or push to master on github, it will deploy the app to the production heroku app/dyno.
+
+Instructions
+Clone this repo to your local (DO NOT FORK THIS REPO, IF YOU DO YOU HAVE TO ENABLE ACTIONS BEFORE ANYTHING RUNS)
+Create a new repo on your own Github account
+Change the origin by replacing it with your own new repo. (Do not add a readme or any other file while creating the repository)
+Create an account with Heroku, create an app for production and an app for development
+Create a new repo in Docker hub
+Setup Docker and Heroku Credentials In the Repository Settings under Action -> Secret
 
 #### Setup Docker and Heroku Credentials In the Repository Settings under Action -> Secret
 
