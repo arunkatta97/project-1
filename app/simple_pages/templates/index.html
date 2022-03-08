@@ -1,29 +1,38 @@
 {% extends "base.html" %}
 {% block content %}
-    <h3>Index Page</h3>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-12">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-            </div>
-        </div>
-    </div>
+    <h2>Home Page</h2>
+    <div id="carouselExampleSlidesOnly" class="carousel slide mb-5" data-bs-ride="carousel" data-interval="2000">
+        <div class="carousel-inner"  style="height:50%">
+          <div class="carousel-item active">
+              <a href="/git">
+            <img src="https://initialcommit.com/img/initialcommit/baby-git-release.png" class="d-block w-100" alt="...">
+              </a>
+          </div>
+            <div class="carousel-item">
+              <a href="/docker">
+            <img src="https://files.realpython.com/media/Python-Docker-Tutorials_Watermarked.f9834dc9df9a.jpg" class="d-block w-100" alt="...">
+              </a>
+          </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="https://www.w3schools.com/w3css/img_lights.jpg" style="height: 50% !important; width: 100%"/>
-                    </div>
-                    <div class="col-8">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </div>
+          <div class="carousel-item">
+              <a href="/cicd">
+            <img src="https://www.pcloudy.com/wp-content/uploads/2020/03/2020-03-03-1024x518.png" class="d-block w-100" alt="...">
+              </a>
+          </div>
+          <div class="carousel-item ">
+              <a href="/flask">
+            <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png" class="d-block w-100" alt="...">
+              </a>
+          </div>
         </div>
-    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+      </div>
+
 {% endblock %}
