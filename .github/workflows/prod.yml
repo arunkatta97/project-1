@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: runkatta97/project-1
+          images: arunkatta97/project-1
 
       - name: Build and push
         uses: docker/build-push-action@v2
