@@ -2,12 +2,12 @@
 
 [![Production Workflow](https://github.com/arunkatta97/project-1/actions/workflows/prod.yml/badge.svg)](https://github.com/arunkatta97/project-1/actions/workflows/prod.yml)
 
-* [Production Deployment](https://project-1-prod.herokuapp.com/git)
+* [Production Deployment](https://project-1-prod.herokuapp.com/)
 
 
 [![Development Workflow](https://github.com/arunkatta97/project-1/actions/workflows/dev.yml/badge.svg)](https://github.com/arunkatta97/project-1/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://project-1-dev.herokuapp.com/git)
+* [Developmental Deployment](https://project-1-dev.herokuapp.com/)
 
 ## Setting up CI/CD
 Setting up CI/CD
