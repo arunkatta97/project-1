@@ -28,35 +28,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="git")}}">Git</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="docker")}}">Docker</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="cicd")}}">CICD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="flask")}}">Flask</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="oops")}}">OOP-Design</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="aaa")}}">AAA Test</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="pylint")}}">PYLINT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="solid")}}">S.O.L.I.D.</a>
-                            </li>
-                        </ul>
+                       {% block navigation %}
+                        {% endblock %}
                     </div>
                 </div>
             </nav>
