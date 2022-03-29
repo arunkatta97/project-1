@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+    <h3> PYLINT</h3>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    Pylint is a Python programming language source code, bug, and quality checker. It is titled with a
+                    "py" prefix, as is usual in Python, and as a tribute to the C programming lint program. It adheres
+                    to PEP 8, the Python style guide's recommendations. [4] It's similar to Pychecker and Pyflakes, but
+                    it has a few more capabilities. </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-vLjln8z15so752g3sYFdTdTSxpgkjTLkFw&usqp=CAU"
+                             style="height: 50% !important; width: 100%"/>
+                    </div>
+                    <div class="col-8">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <h4>
+                        Features
+                    </h4>
+                    <p>
+                    <ul>
+                        <li>
+                            Checking the length of each line.
+                        </li>
+                        <li>
+                            Checking that variable names are well-formed according to the project's coding standard
+                        </li>
+                        <li>
+                            Checking that declared interfaces are truly implemented.
+                        </li>
+
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="row">
+                    <p>
+                        It can run on its own, but it also connects with IDEs like Eclipse with PyDev and Visual Studio
+                        Code, as well as editors like Atom, GNU Emacs, and Vim.
+                    </p>
+                    <p>
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <img src="{{ url_for('static', filename='images/pylint1.PNG') }}"
+                         style="height: 50% !important; width: 100%"/>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/002/665/medium640/Blinka_Ouroboros_Pylint_Logo.png?1565816916"
+                         style="height: 50% !important; width: 100%"/>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
