@@ -1,3 +1,7 @@
 body {
 font-size: 200%;
 }
+
+.carousel-inner .carousel-item img{
+    height: 40rem !important;
+}

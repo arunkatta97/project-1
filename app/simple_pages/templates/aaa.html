@@ -1,15 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-    <h3> Flask</h3>
+    <h3> AAA Testing Methodology</h3>
     <div class="container my-5">
         <div class="row">
             <div class="col-12">
                 <p>
-                    Flask is a lightweight Python web framework with essential tools and capabilities for developing
-                    online applications in Python. Because you can build a web application rapidly using only a single
-                    Python file, it allows developers flexibility and is an accessible framework for beginning
-                    developers. Flask is also extendable, and it doesn't require complicated boilerplate code or a
-                    certain directory structure to get started. </p>
+                    The AAA (Arrange-Act-Assert) pattern has practically become the industry standard. It advises that
+                    your test method be divided into three parts: arrange, act, and assert. Each of them is only in
+                    charge of the section for which they were named.
+                    So in the arrange section, you just have the code needed to run that particular test. Objects would
+                    be created here, mocks would be put up (if you're using one), and expectations might be defined.
+                    Then there's the Act, which is supposed to be the method's invocation. And on Assert, you'd just see
+                    if the expectations had been met. More information is available HERE. </p>
 
             </div>
         </div>
@@ -20,14 +22,11 @@
             <div class="col-8">
                 <div class="row">
                     <div class="col-4">
-                        <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png"
+                        <img src="https://www.getzephyr.com/sites/default/files/AAA.jpg"
                              style="height: 50% !important; width: 100%"/>
                     </div>
                     <div class="col-8">
 
-                        Learning Flask will allow you to quickly create web applications in Python. You can take
-                        advantage of Python libraries to add advanced features to your web application, like storing
-                        your data in a database, or validating web forms.
                     </div>
                 </div>
                 <div class="row">
@@ -35,11 +34,7 @@
                         Testing
                     </h4>
                     <p>
-                        Testing applications has become a standard skill set required for any competent developer today.
-                        The Python community embraces testing, and even the Python standard library has good inbuilt
-                        tools to support testing. In the larger Python ecosystem, there are a lot of testing tools.
-                        Pytest stands out among them due to its ease of use and its ability to handle increasingly
-                        complex testing needs.
+
                     </p>
                 </div>
 
@@ -59,16 +54,16 @@
             </div>
             <div class="col-4">
                 <div class="row">
-                    <img src="https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png"
-                             style="height: 50% !important; width: 100%"/>
+                    <img src="{{ url_for('static', filename='images/aaa1.PNG') }}"
+                         style="height: 50% !important; width: 100%"/>
                     <br>
                     <br>
                     <br>
                     <br>
                     <br>
                     <br>
-                    <img src="https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png"
-                             style="height: 50% !important; width: 100%"/>
+                    <img src="https://freecontent.manning.com/wp-content/uploads/unit-test-design-part1-aaa_01.jpg"
+                         style="height: 50% !important; width: 100%"/>
 
 
                 </div>
